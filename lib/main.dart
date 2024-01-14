@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main_pagee.dart';
+import 'package:flutter_bmi_calculator/animations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 8, 6, 70)),
+            seedColor: const Color.fromARGB(255, 68, 67, 116)),
         useMaterial3: true,
       ),
-      home: const MainPage(),
+      home: const AnimationPage(),
     );
   }
 }
