@@ -44,7 +44,7 @@ class _MainPageState extends State<MainPage> {
                       decoration: BoxDecoration(
                         color: gender == 'M'
                             ? const Color.fromARGB(255, 197, 92, 0)
-                            : const Color.fromARGB(255, 240, 157, 85),
+                            : const Color.fromARGB(255, 255, 255, 255),
                         borderRadius: BorderRadius.circular(25.0),
                       ),
                       child: const Center(
@@ -75,7 +75,7 @@ class _MainPageState extends State<MainPage> {
                       decoration: BoxDecoration(
                           color: gender == 'F'
                               ? const Color.fromARGB(255, 197, 92, 0)
-                              : const Color.fromARGB(255, 240, 157, 85),
+                              : const Color.fromARGB(255, 255, 255, 255),
                           borderRadius: BorderRadius.circular(25.0)),
                       child: const Column(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -227,18 +227,18 @@ class _MainPageState extends State<MainPage> {
                 },
                 child: Container(
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 197, 92, 0),
+                    color: const Color.fromARGB(255, 255, 255, 255),
                     border: Border.all(color: Colors.white),
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                   child: const Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(12.0),
                     child: Text(
                       "Calculate",
                       style: TextStyle(
-                        fontSize: 25.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Color.fromARGB(249, 239, 237, 237),
+                        color: Color.fromARGB(255, 197, 92, 0),
                       ),
                     ),
                   ),

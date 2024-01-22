@@ -31,17 +31,17 @@ class _FirstPageState extends State<AnimationPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "BMI Calculator",
                   style: TextStyle(
-                    color: Color.fromARGB(255, 225, 52, 30),
+                    color: Color.fromARGB(255, 197, 92, 0),
                     fontSize: 50.0,
                     fontWeight: FontWeight.w900,
                   ),
                 ),
                 Center(
                   child: Container(
-                    padding: const EdgeInsets.only(top: 100.0),
+                    padding: const EdgeInsets.only(top: 140.0),
                     child: Lottie.asset(
                       "assets/Animation - 1705216548922.json",
                       animate: true,

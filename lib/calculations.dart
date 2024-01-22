@@ -36,14 +36,20 @@ class Calculations extends StatelessWidget {
                         padding: EdgeInsets.fromLTRB(20.0, 25.0, 20.0, 10.0),
                         child: Text(
                           "BMI Value",
-                          style: TextStyle(fontSize: 30.0),
+                          style: TextStyle(
+                              fontSize: 30.0,
+                              color: Color.fromARGB(255, 197, 92, 0),
+                              fontWeight: FontWeight.w800),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(bottom: 15.0),
                         child: Text(
                           bMi.toStringAsFixed(2),
-                          style: const TextStyle(fontSize: 20.0),
+                          style: const TextStyle(
+                              fontSize: 20.0,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
@@ -67,7 +73,9 @@ class Calculations extends StatelessWidget {
                     },
                     child: const Text(
                       "Back",
-                      style: TextStyle(fontSize: 20.0),
+                      style: TextStyle(
+                          fontSize: 20.0,
+                          color: Color.fromARGB(255, 197, 92, 0)),
                     ),
                   ),
                   const SizedBox(
@@ -79,7 +87,9 @@ class Calculations extends StatelessWidget {
                     },
                     child: const Text(
                       "Tips",
-                      style: TextStyle(fontSize: 20.0),
+                      style: TextStyle(
+                          fontSize: 20.0,
+                          color: Color.fromARGB(255, 197, 92, 0)),
                     ),
                   ),
                 ],
